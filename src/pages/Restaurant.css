@@ -1,0 +1,30 @@
+.Restaurant{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 5vh;
+}
+
+.Restaurant img {
+    width: 20vh;
+    height: 20vh;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Restaurant-info{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.Restaurant .options{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Restaurant .aux{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+}

@@ -1,0 +1,17 @@
+.Container{
+    width: 70vw;
+    min-height: 100vh;
+    margin-left: 15vw;
+}
+
+.Container h1{
+    margin-top: 4vh;
+    text-align: left;
+    margin-left: 1vw;
+}
+
+.Cards{
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
